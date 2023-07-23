@@ -341,4 +341,26 @@ input[type="submit"]{
     display: block;
     margin: 0px auto;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
+/* footer section  */
+footer {
+    text-align: center;
+  
+}
+
+footer div p{
+    background-color: #304146;
+color: #ededed;
+   padding-bottom: 20px;
+   padding-top: 20px;
+ 
+       
+
+}
+.c img {
+    height: 10%;
+    width: 10%;
+    margin-top: 6vh;
+    border-radius: 10%;
+  }
