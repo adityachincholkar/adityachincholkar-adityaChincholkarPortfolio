@@ -358,9 +358,16 @@ color: #ededed;
        
 
 }
-.c img {
-    height: 10%;
-    width: 10%;
+.foote img {
+    height: 3%;
+    width: 3%;
     margin-top: 6vh;
+    border-radius:10%;
+    margin-bottom: 10px;
+  }
+  .foote img:hover{
+    height: 4%;
+    width: 4%;
     border-radius: 10%;
+    
   }
