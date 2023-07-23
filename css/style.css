@@ -15,9 +15,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    background-color: transparent;
+    /* background-color: transparent; */
     width: 100vw;
     height: 70px;
+    position: fixed;
+    background-color: #081b29;
+    opacity: .7;
+    z-index: 1;
 }
 
 .logo{
@@ -34,6 +38,7 @@
     padding-top: 8px;
     padding-right: 15px;
     color: #ededed;
+    
     
 }
 
@@ -109,10 +114,21 @@ hr{
     opacity: .7;
 }
 /* about me section  */
+
 .about{
    text-align: center;
    padding: 20px 40px;
    margin-bottom: 100px;
+}
+.about h1{
+color: #ededed;
+font-size: 2.3rem;
+font-weight: bolder;
+margin-top: 50px;
+}
+.about h1 span{
+    color: #00abf0;
+
 }
 .about img{
     width: 250px;
@@ -123,7 +139,7 @@ hr{
    margin-bottom: 20px;
    margin-left: 50px ;
    margin-right: 50px;
-   margin-top: 100px;
+   margin-top: 50px;
 }
 
 .about h2{
@@ -136,7 +152,67 @@ hr{
 color: #ededed;
 
 }
-.about span{
+.about p span{
     color: #00abf0;
     font-size: 2rem;    
     }
+
+/* skill section */
+
+.skills{
+    text-align: center;
+   
+    
+}
+.skills h1{
+    color: #ededed;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-top: 50px;
+    }
+    .skills h1 span{
+        color: #00abf0;
+    
+    }
+.skills .images {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   margin-bottom: 80px;
+}
+.skills .images img{
+ height: 100px;
+ margin-top: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-bottom: 20px;
+}
+
+/* project section  */
+.projectSec{
+   
+}
+
+.projectTitle h1{
+    text-align: center;
+    color: #ededed;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-top: 50px;
+    }
+.projectTitle h1 span{
+        color: #00abf0;
+    
+    }
+
+#project1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+}
+#project1 img{
+    width: 250px;
+}

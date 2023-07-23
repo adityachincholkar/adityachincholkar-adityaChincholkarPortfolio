@@ -1,2 +1,0 @@
-# adityachincholkar-adityaChincholkarPortfolio
-Aditya Chincholkar Portfolio
