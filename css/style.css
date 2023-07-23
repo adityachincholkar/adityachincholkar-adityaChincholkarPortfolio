@@ -279,3 +279,66 @@ padding-right: 100px;
    text-align: center;
  }
  
+ .project h3{
+    color: #00abf0;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+   font-weight: 500;
+ }
+ .project p{
+    color: #ededed;
+    font-weight: 500;
+ }
+
+ /* contact section  */
+ .contact{
+    text-align: center;
+ }
+
+ .contact h1{
+    color: #ededed;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-top: 50px;
+    }
+    .contact h1 span{
+        color: #00abf0;
+    
+    }
+
+ label{
+    display: block;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.form-container{
+    /* background-color: rgb(242, 242,242); */
+    margin-top: 50px ;
+    color: #ededed;
+    padding: 20px;
+}
+
+input , select{
+    width: 300px;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing:border-box;
+    color: #ededed;
+    margin-bottom: 10px;
+}
+select{
+    margin-top: 5px;
+}
+
+input[type="submit"]{
+    background-color: #00abf0;
+    color: rgb(255,255, 255);
+    padding: 12px 20px;
+    border: 5px none rgb(255,255, 255);
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+}
