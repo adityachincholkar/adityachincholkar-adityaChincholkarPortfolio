@@ -364,6 +364,8 @@ color: #ededed;
     margin-top: 6vh;
     border-radius:10%;
     margin-bottom: 10px;
+    color: #00abf0;
+    /* background-color: #00abf0; */
   }
   .foote img:hover{
     height: 4%;
